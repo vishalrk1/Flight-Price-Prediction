@@ -7,7 +7,7 @@ Machine learning model to predict flight fair price
 # Modeling experiments
 
 **Got the Lowest MAE with Random Forest Model**
-
+Tried Following Modeling experiments
 - Linear Regression
 - Decision Trees
 - Random Forest
