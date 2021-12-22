@@ -5,7 +5,7 @@ import joblib
 import datetime as dt
 
 ## loading in trained model
-model = joblib.load('Models/FlightPrice.pkl')
+model = joblib.load('FlightPrice.pkl')
 
 @st.cache()
 def make_predictions(journey_date, journey_time, arrival_date, arrival_time, source, destination, stops, airline):
@@ -71,7 +71,7 @@ def make_predictions(journey_date, journey_time, arrival_date, arrival_time, sou
 
 def main():
     
-    st.title('Flight Fair Price Predictor')
+    st.title('Flight Fair Predictor')
     st.subheader('Fill the following details to get the idea about flight fair price')
 
     col1, col2 = st.columns([2, 1])
