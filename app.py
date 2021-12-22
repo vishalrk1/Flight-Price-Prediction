@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
 import joblib
 import datetime as dt
 
@@ -72,7 +71,7 @@ def make_predictions(journey_date, journey_time, arrival_date, arrival_time, sou
 
 def main():
     
-    st.title('Flight Fair Proce Predictor')
+    st.title('Flight Fair Price Predictor')
     st.subheader('Fill the following details to get the idea about flight fair price')
 
     col1, col2 = st.columns([2, 1])
